@@ -337,21 +337,21 @@ autoprefixer@^10.2.4:
     normalize-range "^0.1.2"
     postcss-value-parser "^4.1.0"
 
-babel-plugin-jsx-dom-expressions@~0.25.0:
-  version "0.25.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.25.1.tgz#a8fc078e420edc425b294373dbf3727ab36beb20"
-  integrity sha512-ELkFASIk3MDnVcSkLZ+YHM/53fApqTajEo2krW5DghaZn0q9O3zc7zWBLBNJu522ToxiixkFUVKFDDVFHSSZAA==
+babel-plugin-jsx-dom-expressions@~0.25.2:
+  version "0.25.2"
+  resolved "https://registry.yarnpkg.com/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.25.2.tgz#c2cce0882aa0f5864ca33f581b593710b025541a"
+  integrity sha512-ZOhv/koXo5/aitU13+I5SwchhXAqlmG8s+Bm3cOjjylu+o6lX7Zx7PbNXj4EQjkDFZZtLCXSAxao9+byf8ucmA==
   dependencies:
     "@babel/helper-module-imports" "^7.10.4"
     "@babel/plugin-syntax-jsx" "^7.10.4"
     "@babel/types" "^7.11.5"
 
-babel-preset-solid@^0.24.0:
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/babel-preset-solid/-/babel-preset-solid-0.24.0.tgz#4c24e14b41d71226bf67567313d3522059728b63"
-  integrity sha512-3E9bSgrY/JJKCo80tpTEDqlaSUzrKwE6tSXTXa6dgehmF7Hsd/XuyOnoikmp96tMhQYQs/TpqXDanCdIhz5QSg==
+babel-preset-solid@^0.24.0, babel-preset-solid@^0.24.1:
+  version "0.24.1"
+  resolved "https://registry.yarnpkg.com/babel-preset-solid/-/babel-preset-solid-0.24.1.tgz#6172640fa43979e9ed75b54d332848ff0e0934a9"
+  integrity sha512-RNn7ZRQB5ViQz1OwrkJIJhs8aaEDG3kSt7TsV919dpZoJ95dUixS+Zw2DCn48wR5cQvYamDp7ghfsSVfWRl/Aw==
   dependencies:
-    babel-plugin-jsx-dom-expressions "~0.25.0"
+    babel-plugin-jsx-dom-expressions "~0.25.2"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -592,9 +592,9 @@ ejs@^3.1.5:
     jake "^10.6.1"
 
 electron-to-chromium@^1.3.649:
-  version "1.3.656"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.656.tgz#73189277993bba6a327fe53addc2d5715b192c6b"
-  integrity sha512-NKfOW3P126lmdI7SebhoOulEt8oG6pCd7WV1crHawItX5OyTV/ENK42RRsuxWF00lH4AGCUVh6Gyc5VU9yFWpw==
+  version "1.3.657"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.657.tgz#a9c307f2612681245738bb8d36d997cbb568d481"
+  integrity sha512-/9ROOyvEflEbaZFUeGofD+Tqs/WynbSTbNgNF+/TJJxH1ePD/e6VjZlDJpW3FFFd3nj5l3Hd8ki2vRwy+gyRFw==
 
 error-ex@^1.3.1:
   version "1.3.2"
@@ -1194,10 +1194,10 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-solid-js@^0.24.0:
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-0.24.0.tgz#718746158914144cafc034db27b063052aa96254"
-  integrity sha512-HfgYWjaca00XsIGgtaM1gTOE5wcZD5nB02pov8UJkwBvNKS0E9dOK8RxiGpg41SdHDH7o8t3tDSFtcCp54nMtw==
+solid-js@^0.24.0, solid-js@^0.24.1:
+  version "0.24.1"
+  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-0.24.1.tgz#9bfcaaffad1cbbb3f7d0df31acc6ab68ae06ea53"
+  integrity sha512-2yIlOW1P99PSdDDj0Q+YrOig+6ofGiBy9h6Txi5WGjjK0wjjBS6Krt2zN3CsmBqAsSD/D1qBr9Cwucxg/MC8Nw==
 
 source-map-support@~0.5.12:
   version "0.5.19"
